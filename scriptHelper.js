@@ -83,6 +83,7 @@ function addDestinationInfo(document, name, diameter, star, distance, moons, ima
  console.log(myFetch());
  
  function pickPlanet(planets) {
+    //selects random planet from the json object.
     return planets[Math.floor(Math.random()*planets.length)]
  }
  
